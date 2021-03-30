@@ -50,27 +50,26 @@ app.get('/', (req,res) => {
 // })
 
 ////////////////METODOS 
-//consejo: no usar comillas invertidas en el texto 
-//porque tira errores raros
-// app.get('/foto', (req,res) => {
 
-// 	res.send('obtengo foto');
-// })
+app.get('/foto', (req,res) => {
 
-// app.post('/foto', (req,res) => {
+	res.send('obtengo foto');
+})
 
-// 	res.send('creo foto');
-// })
+app.post('/foto', (req,res) => {
 
-// app.put('/foto', (req,res) => {
+	res.send('creo foto');
+})
 
-// 	res.send('actualizo foto');
-// })
+app.put('/foto', (req,res) => {
 
-// app.delete('/foto', (req,res) => {
+	res.send('actualizo foto');
+})
 
-// 	res.send('elimino foto');
-// })
+app.delete('/foto', (req,res) => {
+
+	res.send('elimino foto');
+})
 
 // req.body = extension bodyparser para recibir 
 //datos por formulario
