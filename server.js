@@ -147,3 +147,7 @@ app.listen(4000)
 // Array.isArray(var)Return true if var is an array
 // a1.lengthReturn length of array a1
 // a1[0]Access first element of array a1
+
+
+////// PROMISES
+// https://www.freecodecamp.org/news/learn-promise-async-await-in-20-minutes/
